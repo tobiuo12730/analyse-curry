@@ -1,0 +1,9 @@
+<Node Type="Constant" Name="a" Value="1" />
+<Node Type="Constant" Name="e" Value="5" />
+<Node Type="Constant" Name="c" Value="3" />
+<Node Type="Constant" Name="b" Value="2" />
+<Node Type="Constant" Name="d" Value="4" />
+<Node Type="Operator" Name="Add" />
+<Node Type="Operator" Name="Subtract" />
+<Node Type="Operator" Name="Multiply" />
+<Node Type="Operator" Name="Divide" />

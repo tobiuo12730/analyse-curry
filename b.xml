@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Calculation>
+<Nodes>
+<Node Type="Constant" Name="a" Value="1" />
+<Node Type="Constant" Name="e" Value="5" />
+<Node Type="Operator" Name="Add" />
+<Node Type="Constant" Name="b" Value="2" />
+<Node Type="Constant" Name="d" Value="4" />
+<Node Type="Operator" Name="Subtract" />
+<Node Type="Constant" Name="c" Value="3" />
+<Node Type="Operator" Name="Multiply" />
+<Node Type="Operator" Name="Divide" />
+</Nodes>
+<Edges>
+<Edge>
+    <From>
+        <Node Name="a" />
+        <Node Name="e" />
+    </From>
+    <To>
+        <Node Name="Add" />
+    </To>
+</Edge>
+
+<Edge>
+    <From>
+        <Node Name="Add" />
+        <Node Name="c" />
+    </From>
+    <To>
+        <Node Name="Subtract" />
+    </To>
+</Edge>
+<Edge>
+    <From>
+        <Node Name="Multiply" />
+        <Node Name="b" />
+    </From>
+    <To>
+        <Node Name="Divide" />
+    </To>
+</Edge>
+
+<Edge>
+    <From>
+        <Node Name="Subtract" />
+        <Node Name="d" />
+    </From>
+    <To>
+        <Node Name="Multiply" />
+    </To>
+</Edge>
+</Edges>
+</Calculation>
